@@ -149,3 +149,32 @@ jobs:
         run: |
           echo 'Artifact URL is ${{ steps.artifact-upload-step.outputs.artifact-url }}'
           echo "artifact_file_path=${{ steps.artifact-upload-step.outputs.artifact-url }}" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          artifacts: ${{ steps.artifact_url.outputs.artifact_file_path }}
+          tag: ${{ steps.artifact_name.outputs.artifact_name }}
+          name: "Release ${{ steps.artifact_name.outputs.artifact_name }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          skipIfReleaseExists: true
+
+      - name: Check for Differences
+        id: git_diff
+        run: |
+          if [[ $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_ENV
+          else
+            echo "has_changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Create Pull Request
+        if: env.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: "update-countries-data-${{ inputs.semver_type }})"
+          base: main
+          title: "Update countries-data to version: ${{ steps.dynamic_version.outputs.package_version }}"
+          body: "This pull request includes updated to countries-data package to version: ${{ steps.dynamic_version.outputs.package_version }}"
