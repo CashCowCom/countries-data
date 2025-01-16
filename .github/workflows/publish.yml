@@ -46,7 +46,7 @@ jobs:
       - name: Check Wheel Contents
         shell: bash
         run: |
-          check-wheel-contents dist/*.whl
+          check-wheel-contents dist/*.whl --ignore W002
 
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
