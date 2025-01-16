@@ -20,10 +20,11 @@ build-backend = "poetry.core.masonry.api"
 pre-commit = "*"
 pytest = "*"
 ruff = "*"
+pytest-cov = "^6.0.0"
 
 
 [tool.ruff]
-line-length = 120
+line-length = 140
 target-version = "py312"
 
 

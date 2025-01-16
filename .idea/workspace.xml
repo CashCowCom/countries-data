@@ -5,606 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21040811-c28a-4776-90c0-20801fded041" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/countries-data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ruff.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/lint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/AZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/BZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/CZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/DZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/EC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/EE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/EG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/EH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ER.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ES.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ET.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/FR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/GY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/HU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ID.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/IT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/JE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/JM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/JO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/JP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/KZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/LY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ME.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ML.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/MZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/NZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/OM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/PY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/QA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/RE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/RO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/RS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/RU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/RW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ST.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/SZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/TZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/UA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/UG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/UM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/US.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/UY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/UZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/VU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/WF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/WS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/YE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/YT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ZA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ZM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/countries/ZW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/AZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/BZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/CZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/DZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/EC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/EE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/EG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ER.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ES.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ET.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/FI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/FJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/FM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/FR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/GY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/HN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/HR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/HT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/HU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ID.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IQ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/IT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/JM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/JO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/JP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/KZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/LY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ME.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ML.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/MZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/NZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/OM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/PY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/QA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/RO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/RS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/RU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/RW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ST.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/SZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TO.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TV.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/TZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/UA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/UG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/UM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/US.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/UY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/UZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/VC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/VE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/VN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/VU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/WF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/WS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/YE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ZA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ZM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/subdivisions/ZW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-af.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ak.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-am.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-an.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-as.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ay.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-az.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-bg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-bi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-bn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-bn_IN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-br.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-bs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-cs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-cv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-cy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-dv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-dz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-el.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-eo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-es.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-et.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-eu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-fa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-fi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-fo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-fy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ga.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-gl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-gn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-gu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-gv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ha.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-he.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-hi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-hr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ht.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-hu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-hy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ia.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-io.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-is.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-it.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-iu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ja.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ka.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ki.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-kk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-kl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-km.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-kn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ko.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ku.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-kv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-kw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ky.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-lo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-lt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-lv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-mi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-mk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ml.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-mn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-mr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ms.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-mt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-my.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-na.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-nb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-nl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-nn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-nv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-oc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-or.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-pa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-pi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-pl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-pt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-pt_BR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-rw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-si.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-so.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-sw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-te.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-tg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-th.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ti.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-tk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-tl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-tr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-tt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ug.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-uk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ur.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-uz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-ve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-vi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-wa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-wo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-xh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-yo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-zh_CN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-zh_HK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-zh_TW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/data/translations/countries-zu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countries_data/service/countries_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_countries_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/countries-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/countries-data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countries_data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/countries_data/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countries_data/service/countries_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/countries_data/service/countries_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -621,30 +30,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2rh65AxPBoacT4A4KqbvT02bYp9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mavishay/Projects/Cashcow/countries-data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.koxudaxi.ruff.RuffConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_countries_data.TestGetCountryDataByCode.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_countries_data.TestGetCountrySubdivisionByCodes.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_countries_data.TestGetCountrySubdivisionsByCode.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.countries-data.test.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mavishay/Projects/Cashcow/countries-data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.koxudaxi.ruff.RuffConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -654,6 +67,87 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_countries_data.TestGetCountrySubdivisionByCodes">
+    <configuration name="test_countries_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="countries-data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_countries_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_countries_data.TestGetCountryDataByCode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="countries-data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_countries_data.TestGetCountryDataByCode&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_countries_data.TestGetCountrySubdivisionByCodes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="countries-data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_countries_data.TestGetCountrySubdivisionByCodes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_countries_data.TestGetCountrySubdivisionsByCode" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="countries-data" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_countries_data.TestGetCountrySubdivisionsByCode&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_countries_data.TestGetCountrySubdivisionByCodes" />
+        <item itemvalue="Python tests.Python tests for test_countries_data.TestGetCountrySubdivisionsByCode" />
+        <item itemvalue="Python tests.Python tests for test_countries_data.TestGetCountryDataByCode" />
+        <item itemvalue="Python.test_countries_data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -671,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736998773388</updated>
-      <workItem from="1736998774569" duration="3304000" />
+      <workItem from="1736998774569" duration="7236000" />
     </task>
     <servers />
   </component>
@@ -680,5 +174,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="Makefile" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/countries_data$countries_data_test.coverage" NAME="countries-data.test Coverage Results" MODIFIED="1737002549638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/countries_data$.coverage" NAME=" Coverage Results" MODIFIED="1737005784636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

@@ -19,13 +19,13 @@ class Bounds(BaseModel):
 
 
 class Geo(BaseModel):
-    latitude: float
-    longitude: float
-    max_latitude: float
-    max_longitude: float
-    min_latitude: float
-    min_longitude: float
-    bounds: Bounds | None
+    latitude: float | None
+    longitude: float | None
+    max_latitude: float | None
+    max_longitude: float | None
+    min_latitude: float | None
+    min_longitude: float | None
+    bounds: Bounds | None = None
 
 class VatRates(BaseModel):
     standard: int
@@ -126,7 +126,7 @@ class Subdivision(BaseModel):
     name: str
     code: str
     unofficial_names: list[str]
-    geo: Geo
+    geo: Geo | None
     translations: Translations
     comments: Any
     type: str
