@@ -6,7 +6,7 @@ from loguru import logger
 from ..models import CountryData, Subdivision
 
 
-class CountriesData:
+class CountryRegistry:
     def __init__(self)-> None:
         self.country_data_path = (
                 Path(__file__).parent.parent /  "data" / "countries"

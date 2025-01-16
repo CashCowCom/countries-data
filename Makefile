@@ -13,3 +13,6 @@ lint:  ## Lint the code
 
 test:  ## Test the code
 	@bash scripts/test.sh $(args)
+
+build:
+	@bash scripts/build.sh $(args)

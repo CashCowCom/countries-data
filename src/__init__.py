@@ -1,3 +1,3 @@
-from countries_data import CountryData
+from country_registry import CountryData
 
 __all__ = ["CountryData"]

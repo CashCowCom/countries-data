@@ -12,7 +12,7 @@ A Python package for managing and retrieving country-related data, including cou
 ## Installation
 
 ```bash
-pip install countries-data
+pip install country-registry
 ```
 
 ## Usage
@@ -20,47 +20,47 @@ pip install countries-data
 ### Initialize the Client
 
 ```python
-from countries_data import CountriesData
+from country_registry import CountryRegistry
 
-countries_data = CountriesData()
+country_registry = CountryRegistry()
 ```
 
 ### Get Country Data
 
 ```python
-from countries_data import CountriesData
+from country_registry import CountryRegistry
 
-countries_data = CountriesData()
+country_registry = CountryRegistry()
 # Get data for a specific country using ISO code
-country_data = countries_data.get_country_data_by_code("US")
+country_data = country_registry.get_country_data_by_code("US")
 ```
 
 ### Get Subdivisions
 
 ```python
-from countries_data import CountriesData
+from country_registry import CountryRegistry
 
-countries_data = CountriesData()
+country_registry = CountryRegistry()
 
 # Get all subdivisions for a country as list
-subdivisions = countries_data.get_country_subdivisions_by_code("US")
+subdivisions = country_registry.get_country_subdivisions_by_code("US")
 
 # Get a specific subdivision by code
-subdivision = countries_data.get_country_subdivision_by_codes("US", "CA")
+subdivision = country_registry.get_country_subdivision_by_codes("US", "CA")
 ```
 
 ### Get Translations
 
 ```python
-from countries_data import CountriesData
+from country_registry import CountryRegistry
 
-countries_data = CountriesData()
+country_registry = CountryRegistry()
 
 # Get all country names in a specific language
-spanish_names = countries_data.get_translated_countries_names_by_lang_code("es")
+spanish_names = country_registry.get_translated_countries_names_by_lang_code("es")
 
 # Get a specific country name in a language
-spanish_name = countries_data.get_translated_country_name_by_codes("es", "US")
+spanish_name = country_registry.get_translated_country_name_by_codes("es", "US")
 ```
 
 ## Data Format

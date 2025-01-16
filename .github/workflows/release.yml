@@ -111,7 +111,7 @@ jobs:
         shell: bash
         run: |
           PACKAGE_VERSION=$($GITHUB_WORKSPACE/.github/scripts/internal/bump_version.py ${{ inputs.semver_type }})
-          echo "countries_data package will be bumped to version: ${PACKAGE_VERSION}"
+          echo "country_registry package will be bumped to version: ${PACKAGE_VERSION}"
           echo "package_version=$PACKAGE_VERSION" >> $GITHUB_OUTPUT
 
       - name: Run Poetry Check for pyproject.toml
@@ -136,8 +136,8 @@ jobs:
         id: artifact_name
         shell: bash
         run: |
-          echo "ARTIFACT_NAME=countries_data-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_ENV
-          echo "artifact_name=countries_data-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_OUTPUT
+          echo "ARTIFACT_NAME=country_registry-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_ENV
+          echo "artifact_name=country_registry-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_OUTPUT
 
       - name: Cache Package Distribution
         id: artifact-upload-step
@@ -180,7 +180,7 @@ jobs:
         if: env.has_changes == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: "update-countries_data-${{ inputs.semver_type }})"
+          branch: "update-country_registry-${{ inputs.semver_type }})"
           base: main
-          title: "Update countries_data to version: ${{ steps.dynamic_version.outputs.package_version }}"
-          body: "This pull request includes updated to countries_data package to version: ${{ steps.dynamic_version.outputs.package_version }}"
+          title: "Update country_registry to version: ${{ steps.dynamic_version.outputs.package_version }}"
+          body: "This pull request includes updated to country_registry package to version: ${{ steps.dynamic_version.outputs.package_version }}"
