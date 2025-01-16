@@ -141,7 +141,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ./countries_data/dist/
+          path: ./dist/
 
       - name: Output artifact URL
         id: artifact_url
