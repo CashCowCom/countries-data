@@ -1,3 +1,3 @@
-from .service.country_registry import CountryData
+from .service.country_registry import CountryRegistry
 
-__all__ = ["CountryData"]
+__all__ = ["CountryRegistry"]

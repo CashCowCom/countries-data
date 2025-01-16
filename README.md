@@ -22,7 +22,7 @@ pip install country-registry
 ```python
 from country_registry import CountryRegistry
 
-country_registry = CountryRegistry()
+client = CountryRegistry()
 ```
 
 ### Get Country Data
@@ -30,9 +30,9 @@ country_registry = CountryRegistry()
 ```python
 from country_registry import CountryRegistry
 
-country_registry = CountryRegistry()
+client = CountryRegistry()
 # Get data for a specific country using ISO code
-country_data = country_registry.get_country_data_by_code("US")
+country_data = client.get_country_data_by_code("US")
 ```
 
 ### Get Subdivisions
@@ -40,13 +40,13 @@ country_data = country_registry.get_country_data_by_code("US")
 ```python
 from country_registry import CountryRegistry
 
-country_registry = CountryRegistry()
+client = CountryRegistry()
 
 # Get all subdivisions for a country as list
-subdivisions = country_registry.get_country_subdivisions_by_code("US")
+subdivisions = client.get_country_subdivisions_by_code("US")
 
 # Get a specific subdivision by code
-subdivision = country_registry.get_country_subdivision_by_codes("US", "CA")
+subdivision = client.get_country_subdivision_by_codes("US", "CA")
 ```
 
 ### Get Translations
@@ -54,13 +54,13 @@ subdivision = country_registry.get_country_subdivision_by_codes("US", "CA")
 ```python
 from country_registry import CountryRegistry
 
-country_registry = CountryRegistry()
+client = CountryRegistry()
 
 # Get all country names in a specific language
-spanish_names = country_registry.get_translated_countries_names_by_lang_code("es")
+spanish_names = client.get_translated_countries_names_by_lang_code("es")
 
 # Get a specific country name in a language
-spanish_name = country_registry.get_translated_country_name_by_codes("es", "US")
+spanish_name = client.get_translated_country_name_by_codes("es", "US")
 ```
 
 ## Data Format
