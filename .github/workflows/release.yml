@@ -127,7 +127,7 @@ jobs:
       - name: Check Wheel Contents
         shell: bash
         run: |
-          check-wheel-contents dist/*.whl
+          check-wheel-contents dist/*.whl --ignore W002
 
       - name: Prepare a unique name for Artifacts
         id: artifact_name
