@@ -3,8 +3,8 @@ requires = [ "poetry-core",]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "countries-data"
-version = "0.1.2"
+name = "countries_data"
+version = "0.1.0"
 description = "Return useful information for every country in the ISO 3166 standard."
 authors = [ "Avishay Maor <avishaym@cashcow.com>",]
 readme = "README.md"
@@ -14,7 +14,7 @@ line-length = 140
 target-version = "py312"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.12"
 loguru = "^0.7.3"
 pydantic = "^2.10.5"
 toml = "^0.10.2"

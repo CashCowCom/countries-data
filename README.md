@@ -12,23 +12,7 @@ A Python package for managing and retrieving country-related data, including cou
 ## Installation
 
 ```bash
-# TODO: Add installation instructions specific to your package
-pip install your-package-name
-```
-
-## Directory Structure
-
-The package expects the following directory structure for data files:
-
-```
-your-package-name/
-├── data/
-│   ├── countries/
-│   │   └── {COUNTRY_CODE}.json
-│   ├── subdivisions/
-│   │   └── {COUNTRY_CODE}.json
-│   └── translations/
-│       └── countries-{LANG_CODE}.json
+pip install countries-data
 ```
 
 ## Usage
@@ -36,7 +20,7 @@ your-package-name/
 ### Initialize the Client
 
 ```python
-from your_package import CountriesData
+from countries_data import CountriesData
 
 countries_data = CountriesData()
 ```
@@ -44,6 +28,9 @@ countries_data = CountriesData()
 ### Get Country Data
 
 ```python
+from countries_data import CountriesData
+
+countries_data = CountriesData()
 # Get data for a specific country using ISO code
 country_data = countries_data.get_country_data_by_code("US")
 ```
@@ -51,7 +38,11 @@ country_data = countries_data.get_country_data_by_code("US")
 ### Get Subdivisions
 
 ```python
-# Get all subdivisions for a country
+from countries_data import CountriesData
+
+countries_data = CountriesData()
+
+# Get all subdivisions for a country as list
 subdivisions = countries_data.get_country_subdivisions_by_code("US")
 
 # Get a specific subdivision by code
@@ -61,6 +52,10 @@ subdivision = countries_data.get_country_subdivision_by_codes("US", "CA")
 ### Get Translations
 
 ```python
+from countries_data import CountriesData
+
+countries_data = CountriesData()
+
 # Get all country names in a specific language
 spanish_names = countries_data.get_translated_countries_names_by_lang_code("es")
 
@@ -69,37 +64,7 @@ spanish_name = countries_data.get_translated_country_name_by_codes("es", "US")
 ```
 
 ## Data Format
-
-### Country Data
-The country data JSON files should follow this structure:
-```json
-{
-    "US": {
-        "name": "United States",
-        // Add other country properties based on your CountryData model
-    }
-}
-```
-
-### Subdivision Data
-The subdivision data JSON files should follow this structure:
-```json
-{
-    "CA": {
-        "name": "California",
-        // Add other subdivision properties based on your Subdivision model
-    }
-}
-```
-
-### Translation Data
-The translation files should follow this structure:
-```json
-{
-    "US": "Estados Unidos",
-    "CA": "Canadá"
-}
-```
+TODO add data format here
 
 ## Error Handling
 
@@ -139,7 +104,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-**Note**: Ensure you have the appropriate data files in the correct directory structure before using this package.
