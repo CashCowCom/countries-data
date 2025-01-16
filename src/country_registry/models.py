@@ -28,24 +28,24 @@ class Geo(BaseModel):
     bounds: Bounds | None = None
 
 class VatRates(BaseModel):
-    standard: int
+    standard: float | None = None
     reduced: list
     super_reduced: Any
     parking: Any
 
 
 class CountryData(BaseModel):
-    address_format: str
+    address_format: str | None =None
     alpha2: str
     alpha3: str
     continent: str
     country_code: str
     currency_code: str
     distance_unit: str
-    gec: str
+    gec: str| None = None
     geo: Geo
     international_prefix: str
-    ioc: str
+    ioc: str | None = None
     iso_long_name: str
     iso_short_name: str
     languages_official: list[str]
@@ -56,15 +56,15 @@ class CountryData(BaseModel):
     nationality: str
     number: str
     postal_code: bool
-    postal_code_format: str
+    postal_code_format: str | None = None
     region: str
     start_of_week: str
     subregion: str
     un_locode: str
     un_member: bool
     unofficial_names: list[str]
-    vat_rates: VatRates
-    vehicle_registration_code: str
+    vat_rates: VatRates | None = None
+    vehicle_registration_code: str | None = None
     world_region: str
 
 

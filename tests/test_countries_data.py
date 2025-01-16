@@ -1,6 +1,8 @@
 import pytest
+from loguru import logger
 
 from country_registry.service.country_registry import CountryRegistry
+from country_registry.utils.files import get_countries_code_list, get_subdivisions_code_list
 
 
 @pytest.fixture
@@ -24,6 +26,15 @@ class TestGetCountryDataByCode:
         country_data = country_data_service.get_country_data_by_code(country_iso_code=None)
         assert country_data is None
 
+    def test_get_country_data_by_code_responses(self, country_data_service: CountryRegistry) -> None:
+        countries = get_countries_code_list()
+        logger.info(countries)
+        for country_code in countries:
+            logger.info(f"running for: {country_code}")
+            country_data = country_data_service.get_country_data_by_code(country_iso_code=country_code)
+            assert country_data is not None
+
+
 class TestGetCountrySubdivisionsByCode:
     def test_get_country_subdivisions_by_code_il_uppercase(self, country_data_service: CountryRegistry)->None:
         subdivision_data = country_data_service.get_country_subdivisions_by_code(country_iso_code="IL")
@@ -40,6 +51,15 @@ class TestGetCountrySubdivisionsByCode:
     def test_get_country_subdivisions_by_code_empty(self, country_data_service: CountryRegistry)->None:
         subdivision_data = country_data_service.get_country_subdivisions_by_code(country_iso_code=None)
         assert subdivision_data == []
+
+    def test_get_country_subdivisions_by_code_responses(self, country_data_service: CountryRegistry) -> None:
+        countries = get_subdivisions_code_list()
+        logger.info(countries)
+        for country_code in countries:
+            logger.info(f"running for: {country_code}")
+            country_data = country_data_service.get_country_subdivisions_by_code(country_iso_code=country_code)
+            assert country_data is not None
+
 
 class TestGetCountrySubdivisionByCodes:
     def test_get_country_subdivision_by_codes_il_d_uppercase(self, country_data_service: CountryRegistry)->None:
