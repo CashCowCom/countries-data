@@ -1,0 +1,145 @@
+name: Release version
+
+on:
+  workflow_dispatch:
+    inputs:
+      semver_type:
+        description: 'Type'
+        required: true
+        type: choice
+        options:
+          - 'patch'
+          - 'minor'
+          - 'major'
+
+
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Install Poetry
+        shell: bash
+        run: |
+          pip install --upgrade pip
+          pip install poetry
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: "poetry"
+
+      - name: Lint Package
+        shell: bash
+        run: |
+          poetry install
+          make lint
+
+  Test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Install Poetry
+        shell: bash
+        run: |
+          pip install --upgrade pip
+          pip install poetry
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: "poetry"
+
+      - name: Test Package
+        shell: bash
+        run: |
+          poetry install
+          make test
+
+  TagBuildAndPush:
+    needs: [ Lint, Test ]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+
+      - name: Install Poetry
+        shell: bash
+        run: |
+          pip install --upgrade pip
+          pip install poetry twine check-wheel-contents toml argparse
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: "poetry"
+
+      - name: Bump version
+        id: bump_version
+        shell: bash
+        run: |
+          PACKAGE_VERSION=$($GITHUB_WORKSPACE/.github/scripts/internal/bump_version.py ${{ inputs.semver_type }})
+          echo "countries-data package will be bumped to version: ${PACKAGE_VERSION}"
+          echo "package_version=$PACKAGE_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Run Poetry Check for pyproject.toml
+        shell: bash
+        run: poetry check
+
+      - name: Build Package Distribution
+        shell: bash
+        run: poetry build
+
+      - name: Check Distribution Descriptions
+        shell: bash
+        run: |
+          twine check dist/*
+
+      - name: Check Wheel Contents
+        shell: bash
+        run: |
+          check-wheel-contents dist/*.whl
+
+      - name: Prepare a unique name for Artifacts
+        id: artifact_name
+        shell: bash
+        run: |
+          echo "ARTIFACT_NAME=$name-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_ENV
+          echo "artifact_name=$name-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_OUTPUT
+
+      - name: Cache Package Distribution
+        id: artifact-upload-step
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ./countries_data/dist/
+
+      - name: Output artifact URL
+        id: artifact_url
+        shell: bash
+        run: |
+          echo 'Artifact URL is ${{ steps.artifact-upload-step.outputs.artifact-url }}'
+          echo "artifact_file_path=${{ steps.artifact-upload-step.outputs.artifact-url }}" >> $GITHUB_OUTPUT
