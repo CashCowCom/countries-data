@@ -97,6 +97,11 @@ jobs:
           python-version: '3.13'
           cache: "poetry"
 
+      - name: Install Poetry
+        shell: bash
+        run: |
+          poetry install
+
       - name: Bump version
         id: bump_version
         shell: bash
