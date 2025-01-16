@@ -97,9 +97,10 @@ jobs:
           python-version: '3.13'
           cache: "poetry"
 
-      - name: Install Poetry
+      - name: Install Package dependencies
         shell: bash
         run: |
+          pip install toml argparse
           poetry install
 
       - name: Bump version
