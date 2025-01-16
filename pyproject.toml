@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "countries-data"
-version = "0.1.1"
+version = "0.1.2"
 description = "Return useful information for every country in the ISO 3166 standard."
 authors = [ "Avishay Maor <avishaym@cashcow.com>",]
 readme = "README.md"
