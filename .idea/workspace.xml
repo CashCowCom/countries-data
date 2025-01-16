@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21040811-c28a-4776-90c0-20801fded041" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_countries_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/countries-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/countries-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/workflow.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countries_data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/countries_data/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/countries_data/service/countries_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/countries_data/service/countries_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736998773388</updated>
-      <workItem from="1736998774569" duration="7236000" />
+      <workItem from="1736998774569" duration="8213000" />
     </task>
     <servers />
   </component>
