@@ -133,8 +133,8 @@ jobs:
         id: artifact_name
         shell: bash
         run: |
-          echo "ARTIFACT_NAME=$name-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_ENV
-          echo "artifact_name=$name-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_OUTPUT
+          echo "ARTIFACT_NAME=countries_data-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_ENV
+          echo "artifact_name=countries_data-${{ steps.bump_version.outputs.package_version }}" >> $GITHUB_OUTPUT
 
       - name: Cache Package Distribution
         id: artifact-upload-step
