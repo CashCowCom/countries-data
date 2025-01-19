@@ -25,14 +25,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: countries/countries-data-json
-          fetch-depth: 0 # Fetch all branches and tags
-
-      - name: Copy Folder
-        run: |
-          cp -r data/countries src/country_registry/data
-          cp -r data/subdivisions src/country_registry/data
-          cp -r data/translations src/country_registry/data
-          find src/country_registry/data -type d -empty -delete
+          path: 'src/country_registry/data'
+          sparse-checkout: 'data/countries'
+          sparse-checkout-cone-mode: false
 
       - name: Check for Differences
         id: git_diff
