@@ -32,28 +32,15 @@ jobs:
       - name: Copy remote data
         shell: bash
         run: |
-          ls -la
-          ls -la src
-          ls -la src/country_registry
-          ls -la src/country_registry/data
-          echo $(git status --porcelain)
-
-
           cp -rf ./remote/data/countries ./src/country_registry/data
           cp -rf ./remote/data/subdivisions ./src/country_registry/data
           cp -rf ./remote/data/translations ./src/country_registry/data
           rm -rf ./remote
 
-          ls -la
-          ls -la src
-          ls -la src/country_registry
-          ls -la src/country_registry/data
-          echo $(git status --porcelain)
-
-
       - name: Check for Differences
         id: git_diff
         run: |
+          echo $(git status --porcelain)
           if [[ $(git status --porcelain) ]]; then
             echo "has_changes=true" >> $GITHUB_ENV
           else
@@ -67,11 +54,11 @@ jobs:
         run: |
           echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
-#      - name: Create Pull Request
-#        if: env.has_changes == 'true'
-#        uses: peter-evans/create-pull-request@v7
-#        with:
-#          branch: "update-raw-data-${{env.date}}"
-#          base: main
-#          title: "Update raw data ${{env.date}}"
-#          body: "This pull request includes updated raw data"
+      - name: Create Pull Request
+        if: env.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: "update-raw-data-${{env.date}}"
+          base: main
+          title: "Update raw data ${{env.date}}"
+          body: "This pull request includes updated raw data"
