@@ -17,6 +17,9 @@ on:
 jobs:
   check_remote_for_change:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
