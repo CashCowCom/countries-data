@@ -42,7 +42,7 @@ jobs:
         if: env.has_changes == 'true'
         id: date
         run: |
-          echo "date::$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
       - name: Create Pull Request
         if: env.has_changes == 'true'
