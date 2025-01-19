@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: countries/countries-data-json
-          path: 'src/country_registry/data'
+          path: 'src/country_registry'
           sparse-checkout: 'data/countries'
           sparse-checkout-cone-mode: false
 
