@@ -29,17 +29,31 @@ jobs:
           sparse-checkout: 'data/'
           sparse-checkout-cone-mode: false
 
-      - name: Check for Differences
-        id: git_diff
+      - name: Copy remote data
+        shell: bash
         run: |
           ls -la
           ls -la src
           ls -la src/country_registry
           ls -la src/country_registry/data
-          ls -la remote
-
           echo $(git status --porcelain)
 
+
+          cp -rf ./remote/data/countries ./src/country_registry/data
+          cp -rf ./remote/data/subdivisions ./src/country_registry/data
+          cp -rf ./remote/data/translations ./src/country_registry/data
+          rm -rf ./remote
+
+          ls -la
+          ls -la src
+          ls -la src/country_registry
+          ls -la src/country_registry/data
+          echo $(git status --porcelain)
+
+
+      - name: Check for Differences
+        id: git_diff
+        run: |
           if [[ $(git status --porcelain) ]]; then
             echo "has_changes=true" >> $GITHUB_ENV
           else
