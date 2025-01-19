@@ -1,5 +1,16 @@
 name: Check row data updates and create PR if somthing changed
 on:
+  workflow_dispatch:
+    inputs:
+      semver_type:
+        description: 'Type'
+        required: true
+        type: choice
+        options:
+          - 'patch'
+          - 'minor'
+          - 'major'
+
   schedule:
     - cron: "0 0 * * *"
 
