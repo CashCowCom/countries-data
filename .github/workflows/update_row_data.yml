@@ -25,8 +25,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: countries/countries-data-json
-          path: 'src/country_registry'
-          sparse-checkout: 'data/countries'
+          path: 'src/country_registry/data'
+          sparse-checkout: 'data'
           sparse-checkout-cone-mode: false
 
       - name: Check for Differences
