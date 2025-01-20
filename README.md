@@ -12,7 +12,7 @@ A Python package for managing and retrieving country-related data, including cou
 ## Installation
 
 ```bash
-pip install country-registry
+pip install countries-data
 ```
 
 ## Usage
@@ -20,17 +20,17 @@ pip install country-registry
 ### Initialize the Client
 
 ```python
-from country_registry import CountryRegistry
+from countries_data import CountriesData
 
-client = CountryRegistry()
+client = CountriesData()
 ```
 
 ### Get Country Data
 
 ```python
-from country_registry import CountryRegistry
+from countries_data import CountriesData
 
-client = CountryRegistry()
+client = CountriesData()
 # Get data for a specific country using ISO code
 country_data = client.get_country_data_by_code("US")
 ```
@@ -38,9 +38,9 @@ country_data = client.get_country_data_by_code("US")
 ### Get Subdivisions
 
 ```python
-from country_registry import CountryRegistry
+from countries_data import CountriesData
 
-client = CountryRegistry()
+client = CountriesData()
 
 # Get all subdivisions for a country as list
 subdivisions = client.get_country_subdivisions_by_code("US")
@@ -52,9 +52,9 @@ subdivision = client.get_country_subdivision_by_codes("US", "CA")
 ### Get Translations
 
 ```python
-from country_registry import CountryRegistry
+from countries_data import CountriesData
 
-client = CountryRegistry()
+client = CountriesData()
 
 # Get all country names in a specific language
 spanish_names = client.get_translated_countries_names_by_lang_code("es")

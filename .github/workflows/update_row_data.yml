@@ -24,9 +24,9 @@ jobs:
       - name: Copy remote data
         shell: bash
         run: |
-          cp -rf ./remote/data/countries ./src/country_registry/data
-          cp -rf ./remote/data/subdivisions ./src/country_registry/data
-          cp -rf ./remote/data/translations ./src/country_registry/data
+          cp -rf ./remote/data/countries ./src/countries_data/data
+          cp -rf ./remote/data/subdivisions ./src/countries_data/data
+          cp -rf ./remote/data/translations ./src/countries_data/data
           rm -rf ./remote
 
       - name: Check for Differences
