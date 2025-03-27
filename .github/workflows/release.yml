@@ -70,9 +70,6 @@ jobs:
           make test
 
   TagBuildAndPush:
-    permissions:
-      id-token: write
-      contents: write
     needs: [Lint, Test]
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -81,6 +78,7 @@ jobs:
       url: https://pypi.org/p/countries-data
 
     permissions:
+      id-token: write
       contents: write
       pull-requests: write
 
